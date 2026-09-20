@@ -1,0 +1,48 @@
+{
+  "skill_name": "vibe-coding-orchestrator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to add a billing invoice refund system to our SaaS backend. It should let team admins request a refund and notify the billing team.",
+      "expected_output": "The agent initiates Phase 0 discovery grilling, asks structured questions via a design tree, and prompts the user with the 4-level depth calibration rubric before writing any code or modifying schemas.",
+      "assertions": [
+        "The agent does not modify code or create production files immediately",
+        "The agent presents structured questions with recommended options",
+        "The agent presents the depth calibration rubric (Prototype vs MVP vs Production Robust vs Enterprise)",
+        "The agent identifies critical invariants (e.g. idempotency, ledger immutability, RBAC)"
+      ],
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "prompt": "Let's vibe code a real-time collaborative whiteboard feature in Next.js with WebSockets. Let's make it super clean and robust.",
+      "expected_output": "The agent activates the Vibe & Verify orchestrator, proposes a throwaway prototype for UX vibe validation, establishes state synchronization invariants, and enforces TDD for the WebSocket adapter.",
+      "assertions": [
+        "The agent activates the Vibe & Verify lifecycle",
+        "The agent clarifies state isolation and conflict resolution invariants",
+        "The agent specifies a test-first (TDD) loop before implementing WebSocket handlers"
+      ],
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "prompt": "What is the syntax for Array.prototype.reduce in JavaScript?",
+      "expected_output": "A concise explanation of JavaScript reduce syntax without triggering the orchestrator workflow.",
+      "assertions": [
+        "The agent does not trigger the multi-phase engineering orchestrator",
+        "The agent provides a direct, concise JavaScript syntax example"
+      ],
+      "should_trigger": false
+    },
+    {
+      "id": 4,
+      "prompt": "Can you fix the typo in line 42 of README.md?",
+      "expected_output": "A simple one-line fix without launching the full engineering lifecycle.",
+      "assertions": [
+        "The agent does not invoke the full 8-phase orchestrator",
+        "The agent edits the single file directly"
+      ],
+      "should_trigger": false
+    }
+  ]
+}
