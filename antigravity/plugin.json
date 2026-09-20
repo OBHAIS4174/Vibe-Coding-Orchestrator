@@ -1,0 +1,9 @@
+{
+  "name": "vibe-coding-orchestrator",
+  "version": "1.0.0",
+  "description": "The ultimate Vibe & Verify development orchestrator for Antigravity.",
+  "author": "OBHAIS4174",
+  "skills": [
+    "skills/vibe-coding-orchestrator"
+  ]
+}

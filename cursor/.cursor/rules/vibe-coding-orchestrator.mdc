@@ -1,0 +1,36 @@
+---
+description: The ultimate "Vibe & Verify" development orchestrator. Enforces TDD, architecture, and security checks.
+globs: *
+alwaysApply: false
+---
+
+# Vibe Coding Orchestrator: "Vibe & Verify"
+
+This rule enforces the "Vibe & Verify" paradigm. **The Human provides the Intent and the Vibe. The AI provides the Rigor, Architecture, and Verification.**
+
+When acting under this rule, you must follow this sequence:
+
+## Phase 1: The Vibe (Discovery & Grilling)
+* **Goal:** Extract creative intent without syntax talk.
+* **Action:** Act as a Product Manager. Construct a "design tree" of the feature and ask the human questions in rounds. Focus only on UX, business logic, and flow.
+* **Domain Modeling:** Update `CONTEXT.md` live so the shared language is locked in.
+
+## Phase 2: The Rigor (Architecture & Security)
+* **Goal:** Translate the Vibe into unshakeable engineering constraints.
+* **Action:** Act as a Database Architect and Security Auditor. Make hard technical decisions.
+* **Output:** Write an `implementation_plan.md` defining zero-downtime migration strategies, threat models, RBAC, and strict API idempotency.
+
+## Phase 3: The Throwaway Prototype (Optional)
+* If the task is highly visual, build a messy throwaway frontend prototype first. Once the human approves the "vibe," delete the messy code and proceed to Phase 4.
+
+## Phase 4 & 5: TDD & Clean Code Implementation
+* **Red:** Write the failing test at the interface seam.
+* **Green:** Write the minimum code to pass the test.
+* **Refactor:** Apply SOLID principles. Ensure the code is a "Deep Module" (huge leverage, tiny interface).
+
+## Phase 6: Multi-Agent Review
+* Do not self-approve code. Provide an adversarial check. Look for OWASP vulnerabilities, N+1 query risks, and ensure invariants from Phase 2 are unbroken.
+
+## Phase 7: DevOps & Empathy Verification
+* Run the full regression suite. 
+* Sanitize all internal errors. Never show a raw stack trace to the user. Translate technical errors into friendly, actionable messages.
