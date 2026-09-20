@@ -63,7 +63,7 @@ Add the rules directly to your project workspace:
 ```bash
 # Create rules directory and copy rule
 mkdir -p .cursor/rules
-curl -sSL https://raw.githubusercontent.com/OBHAIS4174/Vibe-Coding-Orchestrator/main/rules/vibe-coding-orchestrator.mdc -o .cursor/rules/vibe-coding-orchestrator.mdc
+curl -sSL https://raw.githubusercontent.com/OBHAIS4174/Vibe-Coding-Orchestrator/main/.cursor/rules/vibe-coding-orchestrator.mdc -o .cursor/rules/vibe-coding-orchestrator.mdc
 ```
 *Or reference `@vibe-coding-orchestrator` in your Cursor Composer or Chat prompt.*
 
