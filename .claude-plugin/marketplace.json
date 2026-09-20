@@ -1,0 +1,41 @@
+{
+  "name": "vibe-coding",
+  "owner": {
+    "name": "OBHAIS4174",
+    "url": "https://github.com/OBHAIS4174",
+    "email": "obhais@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Vibe Coding Orchestrator: Comprehensive Vibe & Verify engineering suite for AI agents",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "vibe-coding-orchestrator",
+      "source": "./",
+      "description": "Master orchestrator that bridges human creative intent (vibing) with industrial software engineering rigor (TDD, deep module architecture, security auditing, and multi-tier verification).",
+      "version": "1.0.0",
+      "author": {
+        "name": "OBHAIS4174",
+        "url": "https://github.com/OBHAIS4174"
+      },
+      "homepage": "https://github.com/OBHAIS4174/Vibe-Coding-Orchestrator",
+      "repository": "https://github.com/OBHAIS4174/Vibe-Coding-Orchestrator",
+      "license": "MIT",
+      "keywords": [
+        "vibe-coding",
+        "orchestrator",
+        "spec-driven",
+        "tdd",
+        "architecture",
+        "security-auditing",
+        "code-review",
+        "domain-modeling",
+        "database-migration"
+      ],
+      "category": "development",
+      "strict": false
+    }
+  ]
+}

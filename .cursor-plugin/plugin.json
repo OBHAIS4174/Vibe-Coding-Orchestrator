@@ -1,0 +1,19 @@
+{
+  "name": "vibe-coding-orchestrator",
+  "displayName": "Vibe Coding Orchestrator",
+  "version": "1.0.0",
+  "description": "Industrial-strength Vibe & Verify engineering suite. Let humans direct the vibe while agents enforce architecture, security, TDD, and multi-tier verification.",
+  "author": {
+    "name": "OBHAIS4174",
+    "email": "obhais@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vibe-coding",
+    "agentic-workflow",
+    "tdd",
+    "clean-code",
+    "code-review",
+    "domain-modeling"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vibe-coding-orchestrator",
+  "version": "1.0.0",
+  "description": "Industrial-grade Vibe & Verify engineering suite for Antigravity, Claude Code, Cursor, and Codex.",
+  "author": "OBHAIS4174",
+  "repository": "https://github.com/OBHAIS4174/Vibe-Coding-Orchestrator",
+  "skills": [
+    "skills/vibe-coding-orchestrator",
+    "skills/spec-driven-agentic-workflow",
+    "skills/grilling",
+    "skills/domain-modeling",
+    "skills/codebase-design",
+    "skills/database-architect",
+    "skills/database-migration",
+    "skills/database-optimizer",
+    "skills/security-auditor",
+    "skills/security-scanning-security-hardening",
+    "skills/api-design-principles",
+    "skills/code-refactoring-refactor-clean",
+    "skills/code-review-ai-ai-review",
+    "skills/prototype",
+    "skills/ui-ux-designer",
+    "skills/tailwind-design-system",
+    "skills/application-performance-performance-optimization",
+    "skills/devops-troubleshooter",
+    "skills/distributed-debugging-debug-trace"
+  ]
+}
