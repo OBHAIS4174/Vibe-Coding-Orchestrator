@@ -16,6 +16,23 @@ The **Vibe Coding Orchestrator** is an end-to-end multi-agent engineering workfl
 
 ---
 
+## Use this skill when
+
+* Designing, architecting, or implementing multi-step software features and full-stack systems.
+* The user wants to "vibe code" while guaranteeing enterprise-grade rigor, test coverage, and security invariants.
+* Refactoring existing codebases or establishing deep module boundaries with strict verification.
+
+## Do not use this skill when
+
+* Answering trivial one-off questions, explaining basic concepts, or fixing simple typos.
+* Tasks that do not involve software design, implementation, or code verification.
+
+---
+
+## Instructions
+
+Follow the 8-phase engineering lifecycle strictly. Never skip Phase 0 depth calibration or Phase 4 test-first verification.
+
 ## 📋 Master Execution Checklist
 
 When this workflow triggers, instantiate this checklist in your conversation to track progress and prevent skipping steps:
