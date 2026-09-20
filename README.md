@@ -69,6 +69,16 @@ curl -sSL https://raw.githubusercontent.com/OBHAIS4174/Vibe-Coding-Orchestrator/
 
 ---
 
+### 5. VS Code & GitHub Copilot
+Works natively via the standard `.agents/skills/` cross-client specification:
+
+1. Open your project in **VS Code** with the **GitHub Copilot Chat** extension installed.
+2. Select **Agent mode** from the mode dropdown at the bottom of the chat panel.
+3. Type `/skills` in the chat input to confirm that `vibe-coding-orchestrator` appears in your skills list.
+4. Prompt the agent: *"Build a billing refund feature using vibe-coding-orchestrator"*.
+
+---
+
 ## 🔄 The 8-Phase "Vibe & Verify" Lifecycle
 
 ```
